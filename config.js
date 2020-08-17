@@ -1,11 +1,11 @@
 module.exports = {
   pathPrefix: "",
-  siteUrl: "https://rolwinreevan.com",
+  siteUrl: "https://jovanbienvenu.com",
   siteTitle: "Jovan Bienvenu",
-  siteDescription: "Logbook of a software developer",
+  siteDescription: "Portfolio - JB - développeur web",
   author: "Jovan Bienvenu",
   postsForArchivePage: 3,
-  defaultLanguage: "en",
+  defaultLanguage: "fr",
   disqusScript:
     process.env.DISQUS_SCRIPT || "https://rolwinreevan.disqus.com/embed.js",
   pages: {
@@ -16,14 +16,12 @@ module.exports = {
     tag: "tags",
   },
   social: {
-    github: "https://github.com/rolwin100",
-    facebook: "https://www.facebook.com/rolwin.monteiro",
-    instagram: "https://www.instagram.com/reevan100/",
+    github: "https://github.com/JovaanB",
+    facebook: "https://www.facebook.com/jovan.bienvenu.7",
+    instagram: "https://www.instagram.com/jovaanc",
     rss: "/rss.xml",
   },
-  contactFormUrl:
-    process.env.CONTACT_FORM_ENDPOINT ||
-    "https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451",
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT,
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || "",
   tags: {
     javascript: {
