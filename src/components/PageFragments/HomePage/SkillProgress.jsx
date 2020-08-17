@@ -1,50 +1,55 @@
-import React from 'react';
-import { Row, Col } from 'antd';
-import ProgressBar from '../../Progress';
+import React from "react"
+import { Row, Col } from "antd"
+import ProgressBar from "../../Progress"
 
 const SkillsProgress = () => (
   <div>
-    <h2>My Skills</h2>
-    <Row gutter={[20, 20]}>
-      <Col xs={24} sm={24} md={12}>
-
-        <ProgressBar
-          percent={80}
-          text="Javascript"
+    <h2>Mes Compétences</h2>
+    <div class="grid-container">
+      <div>
+        <img
+          src="nodejs.png"
+          style={{ height: "100%", width: "100%", objectFit: "contain" }}
+          alt="Logo nodejs"
         />
-        <ProgressBar
-          percent={95}
-          text="ReactJS"
+      </div>
+      <div>
+        <img
+          src="javascript.png"
+          style={{ height: "100%", width: "100%", objectFit: "contain" }}
+          alt="Logo javascript"
         />
-        <ProgressBar
-          percent={85}
-          text="Gatsby"
+      </div>
+      <div>
+        <img
+          src="gatsby.png"
+          style={{ height: "100%", width: "100%", objectFit: "contain" }}
+          alt="Logo gatsby"
         />
-        <ProgressBar
-          percent={90}
-          text="NodeJS"
+      </div>
+      <div>
+        <img
+          src="api.png"
+          style={{ height: "100%", width: "100%", objectFit: "contain" }}
+          alt="Logo api"
         />
-      </Col>
-      <Col xs={24} sm={24} md={12}>
-        <ProgressBar
-          percent={70}
-          text="Python"
+      </div>
+      <div>
+        <img
+          src="react.png"
+          style={{ height: "100%", width: "100%", objectFit: "contain" }}
+          alt="Logo react"
         />
-        <ProgressBar
-          percent={90}
-          text="Mysql"
+      </div>
+      <div>
+        <img
+          src="git.png"
+          style={{ height: "100%", width: "100%", objectFit: "contain" }}
+          alt="Logo git"
         />
-        <ProgressBar
-          percent={78}
-          text="MongoDB"
-        />
-        <ProgressBar
-          percent={80}
-          text="Wordpress"
-        />
-      </Col>
-    </Row>
+      </div>
+    </div>
   </div>
-);
+)
 
-export default SkillsProgress;
+export default SkillsProgress
