@@ -21,7 +21,9 @@ module.exports = {
     instagram: "https://www.instagram.com/jovaanc",
     rss: "/rss.xml",
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT,
+  contactFormUrl:
+    process.env.CONTACT_FORM_ENDPOINT ||
+    "https://getform.io/f/74233965-ddc6-40fe-9cdc-4deadd4cf5a6",
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || "",
   tags: {
     javascript: {
