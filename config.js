@@ -29,55 +29,55 @@ module.exports = {
     javascript: {
       name: "javascript",
       description:
-        "JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.",
+        "JavaScript est un langage de programmation orienté objet utilisé parallèlement à HTML et CSS pour donner des fonctionnalités aux pages web.",
       color: "#f0da50",
     },
     nodejs: {
       name: "Node.js",
       description:
-        "Node.js is a tool for executing JavaScript in a variety of environments.",
+        "Node.js est un outil permettant d'exécuter JavaScript dans divers environnements.",
       color: "#90c53f",
     },
     rxjs: {
       name: "RxJS",
       description:
-        "RxJS is a library for reactive programming using Observables, for asynchronous operations.",
+        "RxJS est une bibliothèque de programmation réactive utilisant Observables, pour des opérations asynchrones.",
       color: "#eb428e",
     },
     typescript: {
       name: "typescript",
       description:
-        "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+        "TypeScript est un sur-ensemble typé de JavaScript qui se compile en JavaScript simple.",
       color: "#257acc",
     },
     reactjs: {
       name: "reactjs",
       description:
-        "React is an open source JavaScript library used for designing user interfaces.",
+        "React est une bibliothèque JavaScript open source utilisée pour la conception d'interfaces utilisateur.",
       color: "#61dbfa",
     },
     gatsby: {
       name: "Gatsby.js",
       description:
-        "A framework built over ReactJS to generate static page web application.  ",
+        "Un framework construit sur ReactJS pour générer une application web à pages statiques.",
       color: "#6f309f",
     },
     html: {
       name: "HTML",
       description:
-        "A markup language that powers the web. All websites use HTML for structuring the content.",
+        "Un langage de balisage qui alimente le web. Tous les sites web utilisent le langage HTML pour structurer le contenu.",
       color: "#dd3431",
     },
     css: {
       name: "css",
       description:
-        "CSS is used to style the HTML element and to give a very fancy look for the web application.",
+        "Le CSS est utilisé pour styliser l'élément HTML et pour donner un aspect très fantaisiste à l'application web.",
       color: "#43ace0",
     },
     python: {
       name: "python",
       description:
-        "A general purpose programming language that is widely used for developing various applications.",
+        "Un langage de programmation d'usage général qui est largement utilisé pour le développement de diverses applications.",
       color: "#f9c646",
     },
   },
